@@ -1,31 +1,12 @@
-        <br><br>
-      <div class="row">
+<br><br>
+<div ng-repeat="service in services">
+    <div class="row">
         <div class="col-md-3">
-              <img src="../img/img.png"/>
+            <img ng-src="../img/{{service.image}}"/>
         </div>
         <div class="col-md-6">
-          <h2>Web Design & Development</h2>
-          <p>We create custom WordPress websites for business of all sizes.</p>
-       </div>
-      
-      </div>
-        
-        <div class="row">
-            <div class="col-md-3">
-                  <img src="../img/img.png"/>
-            </div>
-            <div class="col-md-6">
-              <h2>Branding & Graphic Design</h2>
-              <p>We can create logos, custom graphics, and all you need to make your website unique.</p>
-           </div>
-      </div>
-        
-      <div class="row">
-        <div class="col-md-3">
-              <img src="../img/img.png"/>
+            <h2>{{service.name}}</h2>
+            <p>{{service.description}}</p>
         </div>
-        <div class="col-md-6">
-          <h2>Website Maintenance & Support</h2>
-          <p>We won't abandon you the minute your site is done. We're here for you! </p>
-       </div>
-     </div>
+    </div>
+</div>

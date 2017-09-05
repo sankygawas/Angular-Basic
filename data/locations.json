@@ -1,0 +1,20 @@
+[
+    {
+        "id":1,
+        "name":"Abridge Rd.",
+        "address":"AChigwell, Essex IG7 6BX ",
+        "contact":"(020) 890 234 55323"
+    },
+    {
+       "id":2,
+        "name":"Bushey Mill Lane",
+        "address":"Watford, Herts WD24 7AB  ",
+        "contact":"(020) 81004 2644"
+    },
+    {
+        "id":1,
+        "name":"Moated Farm Drive.",
+        "address":"Addlestone, Surrey KT15 ",
+        "contact":"(020) 8521 2644"
+    }
+]
