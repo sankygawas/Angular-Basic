@@ -8,12 +8,20 @@ var app = angular.module("Design",['ngRoute'])
         templateUrl : 'views/main.html',
         controller : 'MainController'
     })
-      .when('/route1',{
+      .when('/home',{
         templateUrl : 'views/main.html',
         controller : 'MainController'
     })
-     .when('/route2',{
+     .when('/services',{
         templateUrl : 'views/services.html',
+        controller : 'MyController'
+    })
+     .when('/about',{
+        templateUrl : 'views/about.html',
+        controller : 'MyController'
+    })
+     .when('/contact',{
+        templateUrl : 'views/contact.html',
         controller : 'MyController'
     })
    .otherwise({
