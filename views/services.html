@@ -1,12 +1,14 @@
-<br><br>
-<div ng-repeat="service in services">
-    <div class="row">
-        <div class="col-md-3">
-            <img ng-src="../img/{{service.image}}"/>
-        </div>
-        <div class="col-md-6">
-            <h2>{{service.name}}</h2>
-            <p>{{service.description}}</p>
+<div class="container" >
+    <br><br>
+    <div ng-repeat="service in services">
+        <div class="row">
+            <div class="col-md-3">
+                <img ng-src="../img/{{service.image}}" style="width:80%;"/>
+            </div>
+            <div class="col-md-6">
+                <h2>{{service.name}}</h2>
+                <p>{{service.description}}</p>
+            </div>
         </div>
     </div>
 </div>

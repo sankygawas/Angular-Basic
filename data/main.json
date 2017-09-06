@@ -3,18 +3,18 @@
         "id":1,
         "name":"Web Design & Developments",
         "description":"We create custom WordPress websites for business of all sizes.All our web design projects are directly handled by the senior creative team.",
-        "image":"service_webdesign.png"
+        "image":"web-design.png"
     },
     {
         "id":2,
         "name":"Branding & Graphic Design",
         "description":"We can create logos, custom graphics, and all you need to make your website unique.",
-        "image":"service_graphics.png"
+        "image":"graphics.png"
     },
     {
         "id":3,
         "name":"Website Maintenance & Support",
         "description":"We won't abandon you the minute your site is done. We're here for you! ",
-        "image":"service_maintainance.png"
+        "image":"maintainance.png"
     }
 ]

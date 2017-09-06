@@ -30,7 +30,7 @@ var app = angular.module("Design",['ngRoute'])
    
 })
 .controller('MainController',function($scope,$http){
-     $http.get("data/services.json").then(function(response){
+     $http.get("data/main.json").then(function(response){
         $scope.services = response.data;
     });
 })

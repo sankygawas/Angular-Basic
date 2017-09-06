@@ -1,22 +1,30 @@
 <!-- Jumbotron -->
 <div class="jumbotron">
-    <div class="row">
-        <div class="col-md-4">
-            <img ng-src="img/{{services[0].image}}"/>
-        </div>
-        <div class="col-md-8">
-            <h1>GRAFISKA</h1>
-            <p class="lead">If your small or medium sized business needs a website, we can help. If you are in need of more than just web design, we have solutions for you. Our services range from custom WordPress design and development to logo design and visual branding and beyond. </p>
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-12 banner">
+                <img src="/img/graohisca_img.png" >
+                <h1>GRAFISKA</h1>
+                <p class="lead">If your small or medium sized business needs a website, we can help. If you are in need of more than just web design, we have solutions for you. Our services range from custom WordPress design and development to logo design and visual branding and beyond. </p>
+            </div>
         </div>
     </div>
-
 </div>
          
+<div class="container" >
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-4"  ng-repeat="service in services">
 
-<!-- Example row of columns -->
-<div class="row">
-    <div class="col-lg-4"  ng-repeat="service in services">
-        <h2>{{service.name}}</h2>
-        <p>{{service.description}}</p>
+             <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                     <img class="icon" ng-src="img/{{service.image}}">
+                </div>
+            </div>
+            <div class="subheading">{{service.name}}</div>
+            <br>
+            <p>{{service.description}}</p>
+
+        </div>
     </div>
 </div>
